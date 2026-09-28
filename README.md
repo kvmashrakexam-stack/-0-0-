@@ -1,29 +1,27 @@
-# राजभाषा हिन्दी — KBC Style Teacher Quiz
+# राजभाषा हिन्दी — शिक्षक क्विज
 
-A self-contained, GitHub Pages-ready quiz website based on the uploaded **राजभाषा हिन्दी workshop PDF**.
+यह GitHub-ready, single-page interactive quiz है।
 
-## Features
-- KBC-inspired dark blue/gold game-show interface
-- 40 source-based questions
-- 4-house selector
-- 30-second timer
-- Score progression
-- 50:50 lifeline
-- Audience Poll (simulated)
-- Phone-a-Friend (simulated)
-- Responsive design for desktop/mobile
-- No external libraries or API required
+## विशेषताएँ
+- कुल **15 प्रश्न** (ठीक 15)
+- KBC/quiz-show से प्रेरित नीला-स्वर्ण इंटरफेस
+- 30 सेकंड प्रति प्रश्न
+- **Pause / Resume** टाइमर
+- सही/गलत उत्तर का एनीमेशन
+- सही उत्तर की व्याख्या
+- स्कोर और अंतिम परिणाम
+- Web Audio आधारित हल्की sound effects
+- Responsive design — मोबाइल, लैपटॉप और प्रोजेक्टर पर उपयोग योग्य
+- **सदन/House विकल्प नहीं रखा गया**
+- प्रस्तुतकर्ता: **हिन्दी–संस्कृत विभाग, पीएम श्री केन्द्रीय विद्यालय मशरक**
+- प्रश्न संलग्न राजभाषा हिन्दी कार्यशाला PDF की सामग्री से तैयार किए गए हैं।
 
-## Run locally
-Open `index.html` in a browser.
+## GitHub Pages पर चलाने का तरीका
+1. इस फ़ोल्डर की सामग्री GitHub repository में upload करें।
+2. `index.html` को repository की root में रखें।
+3. GitHub → Settings → Pages → Deploy from branch चुनें।
+4. Branch `main` और folder `/ (root)` चुनें।
+5. Save करें और कुछ क्षण बाद मिलने वाले GitHub Pages URL को खोलें।
 
-## Publish on GitHub Pages
-1. Create a new GitHub repository.
-2. Upload `index.html` and `README.md`.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**.
-5. Select `main` and `/root`.
-6. Save. GitHub will provide the Pages URL.
-
-## Source
-Question content is based on the Rajbhasha Hindi workshop PDF supplied in the ChatGPT conversation. The game interface is an original implementation inspired by the general quiz-show format; it does not use KBC proprietary branding/assets.
+## स्थानीय रूप से
+`index.html` पर double-click करके भी ब्राउज़र में चलाया जा सकता है।
